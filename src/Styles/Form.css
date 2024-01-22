@@ -1,0 +1,67 @@
+.Form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    min-height: 100vh;
+    background: linear-gradient(rgb(239, 110, 239),rgb(240, 240, 55));
+    gap: 40px;
+}
+
+.Form .form{
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+    flex-direction: column;
+    background-color: rgba(255, 255, 255, 0.2);
+    padding: 50px;
+    backdrop-filter: blur(5px);
+    border-radius: 5px;
+    border: 2px solid rgba(255, 255, 255, 0.265);
+    box-shadow: 0 5px 8px rgba(0, 0, 0, 0.187);
+
+}
+
+.Form .form  .admin-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.Form .form input{
+    padding: 10px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+}
+
+.Form .form label{
+    font-size: 18px;
+}
+
+.Form .form select{
+    padding: 10px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.Form .form  button{
+    padding: 10px  20px;
+    border: none;
+    outline: none;
+    border-radius: 30px;
+    margin-top: 30px;
+    background-color: rgb(243, 57, 57);
+    color: white;
+    font-size: 18px;
+    transition: 0.3s ease all;
+}
+
+.Form .form  button:active{
+    transform: scale(0.9);
+}
+
+

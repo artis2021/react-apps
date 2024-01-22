@@ -1,0 +1,26 @@
+.InputBox{
+    background-color: rgba(128, 128, 128, 0.164);
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+}
+
+input{
+    background-color: white;
+    border: none;
+    outline: none;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 20px;
+}
+
+span{
+    background-color: rgb(85, 0, 128);
+    color: white;
+    border-radius: 5px;
+    padding: 5px 20px;
+    margin-left: 10px;
+}
